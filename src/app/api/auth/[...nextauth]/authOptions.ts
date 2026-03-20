@@ -12,10 +12,13 @@ export const authOptions: AuthOptions = {
       },
       async authorize(credentials, req) {
         if (!credentials) return null;
-        const user = await userLogIn(credentials.email, credentials.password);
-        if (user) {
-          return user;
-        } else {
+        try {
+          const user = await userLogIn(credentials.email, credentials.password);
+          if (user) {
+            return { ...user, id: user._id };
+          }
+          return null;
+        } catch (e) {
           return null;
         }
       },
