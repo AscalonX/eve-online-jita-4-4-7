@@ -1,0 +1,262 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774016234958,
+  "projectRoot": "/home/Raphael/Document/Chula/Frontend/a09-swdevprac2-AscalonX",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "15.4.8",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.1.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.1.0",
+        "category": "frontend"
+      },
+      {
+        "name": "jest",
+        "version": "29.7.0",
+        "category": "testing"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": "npm test",
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev --turbopack",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "test": "jest",
+      "test:watch": "jest --watch"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "__tests__",
+      "public",
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "__tests__": {
+      "path": "__tests__",
+      "purpose": "Test files",
+      "fileCount": 3,
+      "lastAccessed": 1774016234952,
+      "keyFiles": [
+        "case1.test.tsx",
+        "case2.test.tsx",
+        "case3.test.tsx"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1774016234953,
+      "keyFiles": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1774016234956,
+      "keyFiles": []
+    },
+    "src/app": {
+      "path": "src/app",
+      "purpose": "Application code",
+      "fileCount": 5,
+      "lastAccessed": 1774016234956,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/app/booking/page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1774016501207,
+      "type": "file"
+    },
+    {
+      "path": "A09_NextAuthDataPosting_69b513d88ce7e.pdf",
+      "accessCount": 2,
+      "lastAccessed": 1774016314127,
+      "type": "file"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774016392840,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Navbar.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774016398308,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Banner.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774016403509,
+      "type": "file"
+    },
+    {
+      "path": "A09_GradingCriteria_69b194aa73040.pdf",
+      "accessCount": 1,
+      "lastAccessed": 1774016305148,
+      "type": "file"
+    },
+    {
+      "path": "A10_Resources/A10_Resources/.env.local",
+      "accessCount": 1,
+      "lastAccessed": 1774016315344,
+      "type": "file"
+    },
+    {
+      "path": "A10_Resources/A10_Resources/next-auth.d.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774016316312,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1774016326299,
+      "type": "file"
+    },
+    {
+      "path": "interface.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774016327200,
+      "type": "file"
+    },
+    {
+      "path": "tsconfig.json",
+      "accessCount": 1,
+      "lastAccessed": 1774016327758,
+      "type": "file"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016339679,
+      "type": "file"
+    },
+    {
+      "path": "next.config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774016340110,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/case1.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016345676,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/case2.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016345970,
+      "type": "file"
+    },
+    {
+      "path": "__tests__/case3.test.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016346788,
+      "type": "file"
+    },
+    {
+      "path": "jest.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1774016346960,
+      "type": "file"
+    },
+    {
+      "path": "src/libs/userLogIn.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016378032,
+      "type": "file"
+    },
+    {
+      "path": "src/libs/getUserProfile.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016379213,
+      "type": "file"
+    },
+    {
+      "path": "src/providers/NextAuthProvider.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016385457,
+      "type": "file"
+    },
+    {
+      "path": "src/app/booking/BookingClient.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016420242,
+      "type": "file"
+    },
+    {
+      "path": "src/app/booking/BookingForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774016441833,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

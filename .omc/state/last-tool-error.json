@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"npm run test -- case3.test.tsx 2>&1\",\"timeout\":60000,\"description\":\"Run test case 3\"}",
+  "error": "Exit code 1\n\n> venue-explorer@0.1.0 test\n> jest case3.test.tsx\n\nFAIL __tests__/case3.test.tsx\n  Banner\n    ✕ Banner display correct session data (18 ms)\n\n  ● Banner › Banner display correct session data\n\n    [next-auth]: `useSession` must be wrapped in a <SessionProvider />\n\n       5 |\n       6 | export default function Navbar() {\n    >  7 |   const { data: session } = useSession()\n         |                                       ^\n       8 |\n       9 |   return (\n      10 |     <nav className=\"...",
+  "timestamp": "2026-03-20T14:21:28.446Z",
+  "retry_count": 1
+}
